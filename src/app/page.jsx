@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function page() {
   return (
     <main className="bg-white">
-      <div className=" flex justify-between items-center bg-red-800">
-        <div className="object-cover max-w-[50%]">
+      <div className=" flex md:flex-row flex-col justify-between items-center bg-red-800">
+        <div className="object-cover max-w-full md:max-w-[50%]">
           <img
             className="w-full h-full"
             src="/images/4.jpg"
@@ -36,16 +36,16 @@ export default function page() {
       <div>
         <div className=" bg-white items-center m-5">
           <div className=" flex justify-center">
-            <div className="max-w-[40%]">
+            <div className="max-w-full md:max-w-[40%]">
               <img
-                className="w-full h-full p-5"
+                className="w-full h-full md:p-5"
                 src="/images/1.jpg"
                 alt="image description"
               />
             </div>
-            <div className="max-w-[40%]">
+            <div className="max-w-full md:max-w-[40%]">
               <img
-                className="w-full h-full p-5"
+                className="w-full h-full md:p-5"
                 src="/images/2.jpg"
                 alt="image description"
               />
@@ -68,8 +68,8 @@ export default function page() {
 
       <section>
         <div className=" bg-blue-900 p-10 items-center flex">
-          <div className=" m-10">
-            <div className=" max-w-[50%] mx-auto ">
+          <div className=" md:m-10">
+            <div className="md:max-w-[50%] mx-auto ">
               <div className="title">
                 <h2 className="text-yellow-500 text-4xl text-center italic font-extrabold ">
                   40 years of impact
@@ -90,8 +90,8 @@ export default function page() {
       </section>
 
       <section className="bg-red-900">
-        <div className="flex justify-between items-center">
-          <div className="max-w-[50%] text-left p-10 ">
+        <div className="flex flex-col-reverse md:flex-row md:justify-between items-center">
+          <div className="max-w-full md:max-w-[50%] text-left p-10 ">
             <h2 className="italic font-extrabold text-3xl">
               Introducing the climate warrior: Anote Tong journey
             </h2>
@@ -113,15 +113,15 @@ export default function page() {
       </section>
 
       <section className="bg-blue-900 ">
-        <div className="flex justify-between items-center">
-          <div className="flex justify-between">
+        <div className="flex flex-col md:flex-row md:justify-between items-center">
+          <div className="max-w-full flex justify-between">
             <img
               className="w-full h-full"
               src="/images/3.jpg"
               alt="image description"
             />
           </div>
-          <div className="max-w-[50%] text-left p-10 ">
+          <div className="max-w-full md:max-w-[50%] text-left p-10 ">
             <h2 className="italic font-extrabold text-3xl">
               Leaving conflict and finding community with Chevening in the 1990s
             </h2>
@@ -139,8 +139,8 @@ export default function page() {
       </section>
 
       <section className="bg-red-900">
-        <div className="flex justify-between items-center">
-          <div className=" max-w-[50%] text-left p-10 ">
+        <div className="flex flex-col-reverse md:flex-row md:justify-between items-center">
+          <div className="max-w-full md:max-w-[50%] text-left p-10 ">
             <h2 className="italic font-extrabold text-3xl">
               Building a better future for women and girls in India
             </h2>
@@ -165,17 +165,17 @@ export default function page() {
 
       {/* gallery houp1 */}
       <section className=" bg-white">
-        <div className=" grid-flow-col justify-stretch">
-          <div className="flex m-5">
-            <div className="w-full h-full ">
+        <div className=" grid-flow-col">
+          <div className="md:flex m-5">
+            <div className="w-full md:h-full ">
               <img
-                className=" w-full h-full p-5"
+                className="w-full h-full p-5"
                 src="/images/5.jpg"
                 alt="image description"
               />
             </div>
 
-            <div className=" w-full h-full">
+            <div className="w-full h-full">
               <img
                 className=" w-full h-full p-5"
                 src="/images/6.jpg"
@@ -204,8 +204,8 @@ export default function page() {
 
       <section>
         <div className=" bg-blue-900 p-10 items-center flex">
-          <div className=" m-10">
-            <div className="max-w-[50%] mx-auto  flex flex-col justify-center">
+          <div className=" md:m-10">
+            <div className="md:max-w-[50%] mx-auto flex flex-col justify-center">
               <div className="title">
                 <h2 className=" text-yellow-500 text-4xl text-center italic font-extrabold ">
                   Through the decades
@@ -231,7 +231,7 @@ export default function page() {
       {/* gallery houp2 */}
       <section className=" bg-white">
         <div>
-          <div className="flex m-5">
+          <div className="md:flex m-5">
             <div className="w-full h-full p-5 ">
               <img src="/images/9.jpg" alt="image description" />
             </div>
@@ -250,8 +250,8 @@ export default function page() {
 
       <section>
         <div className=" bg-blue-900 p-10">
-          <div className=" m-10">
-            <div className="max-w-[50%] mx-auto flex flex-col">
+          <div className="md:m-10">
+            <div className="md:max-w-[50%] mx-auto flex flex-col">
               <div>
                 <h2 className=" text-yellow-500 text-4xl text-center italic font-extrabold ">
                   Photos from the archive
@@ -276,17 +276,17 @@ export default function page() {
         </div>
       </section>
 
-      {/* three photo */}
+      {/* three photo Get involved */}
       <section>
-        <div className=" bg-white p-5 items-center flex grid-flow-col">
+        <div className=" bg-white p-5 items-center md:flex grid-flow-col">
           <div className="m-5">
-            <div className="max-w-[80%] mx-auto flex flex-col justify-center">
+            <div className="md:max-w-[80%] mx-auto flex flex-col justify-center">
               <div className="title">
                 <h2 className=" text-yellow-600 text-5xl text-center italic font-extrabold ">
                   Get Involved
                 </h2>
 
-                <div className="flex gap-10 m-5">
+                <div className="md:flex gap-10 m-5">
                   <div className="1 w-full h-full ">
                     <img
                       className="w-full h-full p-3"
@@ -356,8 +356,9 @@ export default function page() {
         </div>
       </section>
 
+      {/* 40th anniversary */}
       <section>
-        <div className=" bg-white p-5 items-center flex grid-flow-col">
+        <div className=" bg-white p-5 items-center md:flex grid-flow-col">
           <div>
             <div className="max-w-[80%] mx-auto flex flex-col justify-center">
               <div>
@@ -365,7 +366,7 @@ export default function page() {
                   40th Anniversary news
                 </h2>
 
-                <div className="flex gap-10 m-5">
+                <div className="md:flex gap-10 m-5">
                   <div className="4 w-full h-full ">
                     <img
                       className="w-full h-full p-3"
@@ -435,21 +436,23 @@ export default function page() {
         </div>
       </section>
 
-      <div className=" bg-white items-center ">
-        <div className="p-5 flex justify-center">
-          <div className="max-w-[40%]">
-            <img
-              className="w-full h-full p-5"
-              src="/images/20.jpg"
-              alt="image description"
-            />
-          </div>
-          <div className="max-w-[40%]">
-            <img
-              className="w-full h-full p-5"
-              src="/images/sit.jpg"
-              alt="image description"
-            />
+      <div>
+        <div className=" bg-white items-center">
+          <div className="flex justify-center">
+            <div className="max-w-full md:max-w-[40%]">
+              <img
+                className="w-full h-full md:p-5"
+                src="/images/20.jpg"
+                alt="image description"
+              />
+            </div>
+            <div className="max-w-full md:max-w-[40%]">
+              <img
+                className="w-full h-full md:p-5"
+                src="/images/sit.jpg"
+                alt="image description"
+              />
+            </div>
           </div>
         </div>
       </div>

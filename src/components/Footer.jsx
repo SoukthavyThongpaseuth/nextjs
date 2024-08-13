@@ -10,22 +10,25 @@ import { FaWhatsapp } from "react-icons/fa";
 function Footer() {
   return (
     <footer className=" bg-blue-950 w-full">
-      <div className="footer top w-full max-w-screen-xl mx-auto p-3 md:py-8">
-        <div className="flex items-center justify-between">
+      <div className="w-full max-w-screen-xl mx-auto p-3 md:py-8">
+        <div className="md:flex max-w-[50%] md:max-w-full items-center justify-between">
           <Link
             href="https://facebook.com/"
-            className="flex items-center mb-5  space-x-3 rtl:space-x-reverse"
+            className="flex items-center mb-5 space-x-3 rtl:space-x-reverse"
           >
-            <img src="/images/Lailao.png" className="h-[90px] w-[100%]" />
+            <img
+              src="/images/lailao2.png"
+              className="md:h-[90px] md:w-[100%]"
+            />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
           </Link>
 
-          <div class="grid grid-cols-3 gap-5">
+          <div class="md:grid grid-cols-3 gap-5">
             <div>
               <h2 class="mb-3 text-lg font-semibold text-gray-900 uppercase dark:text-white">
                 News
               </h2>
-              <div className=" pb-5 text-gray-500 dark:text-gray-400 font-medium">
+              <div className=" pb-3 text-gray-500 dark:text-gray-400 font-medium">
                 <div>
                   <a href="https://flowbite.com/" class="hover:underline">
                     Scholarships
@@ -53,7 +56,7 @@ function Footer() {
               <h2 class="mb-3 text-lg font-semibold text-gray-900 uppercase dark:text-white">
                 LAILAOLAB
               </h2>
-              <div className="text-gray-500 dark:text-gray-400 font-medium">
+              <div className="pb-3 text-gray-500 dark:text-gray-400 font-medium">
                 <div>
                   <a href="https://flowbite.com/" class="hover:underline">
                     Home
@@ -81,7 +84,7 @@ function Footer() {
               <h2 class="mb-3 text-lg font-semibold text-gray-900 uppercase dark:text-white">
                 Follow us
               </h2>
-              <div class="text-gray-500 dark:text-gray-400 font-medium">
+              <div class="pb-3 text-gray-500 dark:text-gray-400 font-medium">
                 <div>
                   <a href="https://tailwindcss.com/" class="hover:underline">
                     Accessibility notice
@@ -107,9 +110,9 @@ function Footer() {
           </div>
         </div>
 
-        <div className="footer-bottom">
+        <div>
           <hr class=" border-gray-200 mx-auto dark:border-gray-700" />
-          <div className="flex p-5 items-center justify-between">
+          <div className="md:flex p-5 items-center justify-between">
             <div className="text-lg text-center dark:text-gray-300">
               © 2024{" "}
               <a
@@ -123,7 +126,7 @@ function Footer() {
             </div>
 
             <div className="flex justify-center ">
-              <div className="icon flex justify-between gap-4">
+              <div className="icon flex justify-between p-5 gap-4">
                 <div>
                   <Link
                     className="text-gray-300 hover:text-blue-600"

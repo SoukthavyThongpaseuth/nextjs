@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className="bg-gradient-to-r bg-slate-200">
         <div className="header-top flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
-            href="https://facebook.com/"
+            href="/"
             target="blank"
             className="flex items-center space-x-3 rtl:space-x-reverse "
           >
@@ -48,7 +48,7 @@ const Navbar = () => {
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 mr-5 border md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:border-gray-700">
               <Link
-                href="#"
+                href="/blog"
                 className="block py-2 px-3 text-black bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:hover:text-black md:dark:text-blue-700"
                 aria-current="page"
               >
