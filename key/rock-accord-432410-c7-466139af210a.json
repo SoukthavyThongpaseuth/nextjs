@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "rock-accord-432410-c7",
+  "private_key_id": "466139af210af76e2386b96cf6dcd08e7b96e953",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDL6w8h8OKAZnk8\nEA+lAVaOT0yeIz/6yCWC1EUWxWlqS0Chra9KGtQ5dQcLLOm/ngQO42MZv0cS4rQg\nTd3OIAjgCzrxmoCLXRT9AyfGq0y9DxU/nDleDv+vxKLuVAkle2u6/AnCetaHLovv\ntz+7AAq4snT9sGlTSzzhLKqIG8tgTHKrVMBYg+5aVG3tBPhLjuagZ6X2I2gXyDSU\nE5dTeXlNwMdw3Jvy2g4uQub/gc2TaQcY06XswWUG+7fUmf81kyeOiAr2R2eX7FIO\nKJ3ZGIcVDfK9WSFl/M6//Bc7uM8pQuzUL7bSNTV2rOsRc+47jQPeObOYld1ekFsa\nCMEfLQFbAgMBAAECggEABoa/5byxax2cfLUg4w2PaR+VmqwTJKIaPT0w9uEblhjR\neTs3VH5WU35w2sU1t/nFNHrHla/fBPY3gJ8tXab90bnaSZhBy/QPM2fR8pRR8O0W\nJ4KG/YEqYsQ+2LTc1BPGp2XgpBZNXmc5eFMbmY8PSMkBYIswW8eZK7XDwXZuRGcv\nTwuqAnuX0kRgCCnflRzH+/LmjBwjtj/LB+IwJH2ojCCPnFaWVZiN4smcR41G9A5i\nAL5bCqMaCc7T+hLOKyciOJXLw2BAAWCA7WMFCFoDepvPXQjurB6ARtlkSBLnfCYc\nltjwRpNnH8GX28SexL3TV1rZ7gbgBQCKy1HhyEr78QKBgQDzKKta8V84f7hFtUMS\nsGVBEr5f55WMJs0EZyjpTYJ9+DkwIlzp2SdvOU6h9GlrvzU6SlcBUo1UyHnE+5bQ\nBsqSNEx5buEZleaVINxUUC0cUkv1uMogckbB466z/YRqSDy/RUqoZFmSvu4I1FFT\nIxKlZE6+a4xkChN5mde5YBdSEQKBgQDWr+JyoJ3O1ItmVijQ65w9aqWc1Uo0QhU2\nMgQfwIrm2xmn6vFdQNQQmtIWZoD6eQ0Ku0gBLZ9S9J9jkq1ag/+ktD4WyV229JiG\n7uQgmk5b+lD5MTFdtCm0k1tYsJqakxVYGP2yCRV2hCcpWZNQijeY+is+TH0cV8aQ\nHDYFltYwqwKBgHe3DDZoI+NjLkxTo8QtyIwzODtrfztTVxjV2VST7q0qaq2CHZCc\nc0fVRRuDg+uiZghe1Vs3U5HsaddLrsKYtV8qFISszHKWVMITPabdGniZJADEi+9R\nk/idqkO/i1PwYMgiy1EApwESs4rxTWDLIcEAE6y4spQGSfRSg90mrBShAoGBAJjA\nUFjK2z2ckQrhZu0vlt1EEk4CnGeOVVVYRQLqlmonnpuRWObHB5xA7BYwHLkahCMM\nmfDsqx31G6tXY6yxmqVv8XV5FQrmAdiQBRUFdZeQBSkozT0kwT/QUQBLt9UfreIe\n9fNE71aCNPMA3wZBMcnQxg/vkF0oPwmuaOmVJxU9AoGAWYnys+jzkFTFsf4iQgNM\npWjxx/+pC1ar3jS7SB/xn3tEowVoKUCfpF7jjBPaEpzBuwKsAQ2ZKu6FO5mbJgZo\n7vpnwVDLIrGsHGcpCo5gYlicxZb/zqDKE8sPaZvz0pHR1LbWLZmC/p+fJImRvWMv\n7Ey/f7yofeJEeVWV50rVdyU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "nextjs-google-drive@rock-accord-432410-c7.iam.gserviceaccount.com",
+  "client_id": "113205744898333837336",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nextjs-google-drive%40rock-accord-432410-c7.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

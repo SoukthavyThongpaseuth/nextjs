@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 
@@ -6,6 +8,9 @@ import { FaFacebook } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
+
+import { motion } from "framer-motion";
 
 function Footer() {
   return (
@@ -16,7 +21,13 @@ function Footer() {
             href="https://facebook.com/"
             className="flex items-center mb-5 space-x-3 rtl:space-x-reverse"
           >
-            <img
+            <motion.img
+              whileHover={{ scale: 1.2, rotate: 90 }}
+              whileTap={{
+                scale: 0.8,
+                rotate: -90,
+                borderRadius: "100%",
+              }}
               src="/images/lailao2.png"
               className="md:h-[90px] md:w-[100%]"
             />
@@ -127,17 +138,37 @@ function Footer() {
 
             <div className="flex justify-center ">
               <div className="icon flex justify-between p-5 gap-4">
-                <div>
+                <h2 className="pt-2 underline">Contact Us:</h2>
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  onHoverStart={(e) => {}}
+                  onHoverEnd={(e) => {}}
+                >
                   <Link
                     className="text-gray-300 hover:text-blue-600"
                     href="https://facebook.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaFacebook size={40} className="" />
+                    <FaFacebook size={35} className="" />
                   </Link>
-                </div>
-                <div>
+                </motion.div>
+
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  onHoverStart={(e) => {}}
+                  onHoverEnd={(e) => {}}
+                >
+                  <Link
+                    className="text-gray-300 hover:text-red-600"
+                    href="https://x.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FiMail size={40} className="" />
+                  </Link>
+                </motion.div>
+                {/* <div>
                   <Link
                     className="text-gray-300 hover:text-black"
                     href="https://x.com/"
@@ -156,17 +187,22 @@ function Footer() {
                   >
                     <FaInstagram size={40} className="" />
                   </Link>
-                </div>
-                <div>
+                </div> */}
+
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  onHoverStart={(e) => {}}
+                  onHoverEnd={(e) => {}}
+                >
                   <Link
                     className="text-gray-300 hover:text-green-500"
                     href="https://web.whatsapp.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaWhatsapp size={40} className="" />
+                    <FaWhatsapp size={38} className="" />
                   </Link>
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>
