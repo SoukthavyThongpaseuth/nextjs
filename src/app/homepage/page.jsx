@@ -55,7 +55,7 @@ const page = () => {
               </motion.div>
 
               {/* houp */}
-              <div className="md:flex gap-10 m-5">
+              <div className="md:flex gap-10 m-5 ">
                 <motion.div
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
@@ -103,7 +103,7 @@ const page = () => {
                   className="w-full h-full"
                 >
                   <img
-                    className="w-full h-full p-3"
+                    className="w-full h-full p-3 "
                     src="/images/15.jpg"
                     alt="image description"
                   />
@@ -115,6 +115,29 @@ const page = () => {
                     </div>
                   </div>
                 </motion.div>
+              </div>
+            </div>
+            <div class="flex flex-wrap justify-between">
+              <div class="w-6/12 sm:w-3/12 px-5">
+                <img
+                  src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg"
+                  alt="..."
+                  class="rounded-full max-w-full h-auto border-none"
+                />
+              </div>
+              <div class="w-6/12 sm:w-3/12 px-5">
+                <img
+                  src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg"
+                  alt="..."
+                  class="rounded-full max-w-full h-auto border-none"
+                />
+              </div>
+              <div class="w-4/12 sm:w-3/12 px-5">
+                <img
+                  src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg"
+                  alt="..."
+                  class="rounded-full max-w-full h-auto border-none"
+                />
               </div>
             </div>
           </div>

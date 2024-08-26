@@ -133,7 +133,7 @@ function Footer() {
               >
                 Foundation Website for Lailaolab™
               </a>
-              . Design by Alex.
+              {/* . Design by Alex. */}
             </div>
 
             <div className="flex justify-center ">
